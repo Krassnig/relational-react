@@ -1,0 +1,27 @@
+{
+  "name": "relational-react",
+  "version": "0.3.0",
+  "description": "A react library for managing and using relational models in react",
+  "main": "js/relation-react.js",
+  "types": "js/relational-react.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "db",
+    "database",
+    "query",
+    "react",
+    "typescript",
+    "relational",
+    "hooks"
+  ],
+  "author": "Niklas Krassnig",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^17.0.2"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.3"
+  }
+}
