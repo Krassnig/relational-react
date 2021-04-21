@@ -1,9 +1,9 @@
 {
   "name": "relational-react",
-  "version": "0.3.0",
+  "version": "0.3.5",
   "description": "A react library for managing and using relational models in react",
-  "main": "js/relation-react.js",
-  "types": "js/relational-react.d.ts",
+  "main": "js/index.js",
+  "types": "js/index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
