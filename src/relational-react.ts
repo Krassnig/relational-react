@@ -292,5 +292,3 @@ export const useAll = <T>(table: Table<T>): ReadonlyArray<T> => {
 	useDebugValue(result)
 	return result;
 }
-
-export default useMany;

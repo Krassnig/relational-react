@@ -6,7 +6,7 @@ enum ComponentState {
 	Error
 }
 
-interface ErrorScreenProps {
+export interface ErrorScreenProps {
 	errorMessage?: any;
 }
 
@@ -22,7 +22,7 @@ interface Props {
 	children: React.ReactNode;
 }
 
-const Loader: React.FC<Props> = props => {
+export const Loader: React.FC<Props> = props => {
 	const { children, await: asyncMethod } = props;
 	
 	const SuccessScreen: React.FC = () => <>{children}</>;
